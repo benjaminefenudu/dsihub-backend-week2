@@ -31,3 +31,6 @@ function foo (i) {
 }
 
 foo(3);
+
+// function declarations
+// function expressions

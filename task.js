@@ -1,19 +1,19 @@
-// Task 1-----------------
-var admin = "";
-var newName = "";
-newName = "John";
-admin = newName;
-alert(admin);
-//------------------------
+// // Task 1-----------------
+// var admin = "";
+// var newName = "";
+// newName = "John";
+// admin = newName;
+// alert(admin);
+// //------------------------
 
 
-// Task 2-----------------
-var height = 7
-var base = 3.5
-var area = (0.5 * base * height)
-alert(`The triangle has a height of ${height}cm, a base of ${base}cm,`);
-alert(`Using the formula (half base x height), the area of the triangle is ${area}cm2.`)
-//------------------------
+// // Task 2-----------------
+// var height = 7
+// var base = 3.5
+// var area = (0.5 * base * height)
+// alert(`The triangle has a height of ${height}cm, a base of ${base}cm,`);
+// alert(`Using the formula (half base x height), the area of the triangle is ${area}cm2.`)
+// //------------------------
 
 // Task 3-----------------
 function withdraw(balance, amount) {
@@ -25,4 +25,12 @@ function withdraw(balance, amount) {
 alert(withdraw(10000000,500000));
 
 
-/Users/back-endclassa/Documents/ICT-YEP/week2/task.js
+// Task 4-----------------
+numberList = []; sum = 0;
+for (let i=0; i < 20; i++) {
+    numberList[i] = (i+1)
+    sum = sum + numberList[i]
+}
+alert(numberList)
+alert(sum)
+
