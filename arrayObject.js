@@ -100,21 +100,21 @@
 // document.write(arr.concat([3, 4]))
 // document.write("<hr>");
 
-animals = ["lion", 'goat', 'cow', 'fox', 'geese']
-document.write(animals);
-document.write("<hr>")
-animals.forEach(function(animal) {
-    document.write(`${animal} can also speak? <br>`);
-});
-document.write("<hr>")
+// animals = ["lion", 'goat', 'cow', 'fox', 'geese']
+// document.write(animals);
+// document.write("<hr>")
+// animals.forEach(function(animal) {
+//     document.write(`${animal} can also speak? <br>`);
+// });
+// document.write("<hr>")
 
-animals.forEach((animal) => {document.write(`${animal} can also speak? <br>`)});
+// animals.forEach((animal) => {document.write(`${animal} can also speak? <br>`)});
 
-// let arr3 = ["Biblo", "Gandalf", "Nazgul"];
-// arr3.forEach((item, index, array)) => {
-//     document.write(`${item} is at index ${index} in array ${array}`)
-// }
-document.write("<hr>")
+// // let arr3 = ["Biblo", "Gandalf", "Nazgul"];
+// // arr3.forEach((item, index, array)) => {
+// //     document.write(`${item} is at index ${index} in array ${array}`)
+// // }
+// document.write("<hr>")
 
 // FIND
 // let result = arr.find(function(item, index, array) {
@@ -175,5 +175,5 @@ let names = "Bilbo7 Gandalf7 Nazgul";
 let arr = names.split("7");
 
 arr.forEach((name) => {
-    document.write(`A message to ${name}. `);
+    console.log(`A message to ${name}. `);
 })
